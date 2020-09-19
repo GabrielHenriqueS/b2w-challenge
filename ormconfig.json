@@ -1,0 +1,8 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "starwars",
+  "useUnifiedTopology": true,
+  "entities": ["./src/modules/**/infra/typeorm/schemas/*.ts"]
+}
