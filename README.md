@@ -42,6 +42,20 @@ npm install
 
 2. Edit file `ormconfig.json` to set host and port of MongoDB
 
+3. Run command
+
+```js
+yarn dev:server
+```
+
+or
+
+```js
+npm run dev:server
+```
+
+After that the application will be running on port 3333
+
 Observation: The file `Insomnia_requests.json` contains requests that can be imported to Insomnia
 
 Instructions for run tests:
