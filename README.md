@@ -31,7 +31,7 @@ Instructions for starting the project:
 1. Enter in folder of project and run command
 
 ```js
-yarn;
+yarn
 ```
 
 or
