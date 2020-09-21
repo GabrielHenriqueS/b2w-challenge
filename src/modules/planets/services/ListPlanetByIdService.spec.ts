@@ -26,7 +26,7 @@ describe('List planet by id', () => {
     const planetFiltered = await listPlanetById.execute(String(planet.id));
 
     expect(planetFiltered.id).toEqual(planet.id);
-  });
+  },30000);
 
   it('should not be able to list planet with id not exists', async () => {
     await expect(
